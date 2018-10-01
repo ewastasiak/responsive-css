@@ -12,6 +12,12 @@ body {
   flex-direction: column;
 }
 
+.flexbox-rotate {
+  display: flex;
+  flex-direction: column;
+  transform: rotate(45deg);
+}
+
 .grid {
   display: grid;
   grid-template-areas:

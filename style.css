@@ -1,13 +1,15 @@
 .flexbox {
-  
+  display: flex;
+
 }
 
 .grid {
+  display: grid;
 
 }
 
 .item {
-
+  display: flex;
 }
 
 .squares {

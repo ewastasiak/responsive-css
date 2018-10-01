@@ -1,3 +1,5 @@
+/* Base Styles */
+
 html,
 body {
   background: green;
@@ -24,15 +26,13 @@ h1 {
   text-transform: uppercase;
 }
 
+
+/* Responsivity scaffolding */
+
 .flexbox {
   display: flex;
   flex-direction: column;
   margin: 10px 10px;
-}
-
-div.stripes {
-  margin-left: 20%;
-  margin-right: 20px;
 }
 
 .flexbox-rotate {
@@ -65,22 +65,17 @@ div.stripes {
 
 /* Grid template areas */
 
-/* .g-item-1 {
-  grid-area: a;
-  height: auto;
-} */
-
-.g-item-2 {
+.g-item-1 {
   grid-area: b;
   height: auto;
 }
 
-.g-item-3 {
+.g-item-2 {
   grid-area: c;
   height: auto;
 }
 
-.g-item-4 {
+.g-item-3 {
   grid-area: d;
   height: auto;
 }
@@ -160,7 +155,7 @@ div.stripes {
     justify-content: center;
   }
 
-  .g-item-3 {
+  .g-item-2 {
     align-self: center;
     margin-top: -30%;
   }

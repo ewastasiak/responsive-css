@@ -10,6 +10,12 @@
 
 .item {
   display: flex;
+  border: 1px solid orange;
+  background-color: grey;
+  color: white;
+  font-size: 1em;
+  justify-content: center;
+  align-items: center;
 }
 
 .squares {

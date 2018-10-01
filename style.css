@@ -66,8 +66,22 @@
 
   @media screen and (max-width: 582px) {
 
+    .grid {
+      grid-template-areas:
+        "a"
+        "b"
+        "c"
+        "d"
+    }
+
   }
 
   @media screen and (min-width: 900px) {
+
+    .grid {
+      grid-template-areas:
+        "a a a"
+        "b c d"
+    }
 
   }
